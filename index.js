@@ -11,6 +11,10 @@ app.get('/nasif', (req, res) => {
     res.send('Hello Nasif!')
 })
 
+app.get('/nasif/data', (req, res) => {
+  res.send('Hello Nasif Data!')
+})
+
 app.listen(process.env.PORT, () => {
   console.log(`Example app listening on port ${process.env.PORT}`)
 })
